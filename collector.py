@@ -17,7 +17,7 @@ import requests
 URL = "https://api.weather.gov/gridpoints/BOU/54,75/forecast/hourly"
 
 # The NWS asks every program to name itself and give a way to reach its owner.
-HEADERS = {"User-Agent": "WebDataScience/1.0 (your-email@colorado.edu)"}
+HEADERS = {"User-Agent": "WebDataScience/1.0 (joro6746@colorado.edu)"}
 
 # Where the rows go, and the columns each row has, in order.
 FILE = "forecasts.csv"
